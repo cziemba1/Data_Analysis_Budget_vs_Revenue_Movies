@@ -1,10 +1,13 @@
+1. Question: Can we use movie budget to predict movie revenue?\
+Data source: https://www.the-numbers.com/movie/budgets
+
 ```python
 import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.linear_model import LinearRegression
 ```
 
-1. Question: Can we use movie budget to predict movie revenue?
+
 
 
 
@@ -271,9 +274,9 @@ plt.show()
 
 
 Evaluate:
-1)There is a positive relationship between budget and revenue (3.1): for each dollar spend in producing the movie, we should get around three point one dollar-> higher budget films tend to do better
-2)A movie with a budget of 0, we will lose 7Millon dollars.
-3)This model seems to predict worse at the extremes
+1)There is a positive relationship between budget and revenue (3.1): for each dollar spend in producing the movie, we should get around three point one dollar-> higher budget films tend to do better\
+2)A movie with a budget of 0, we will lose 7Millon dollars.\
+3)This model seems to predict worse at the extremes\
 
 
 ```python
